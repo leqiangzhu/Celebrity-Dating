@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Date a celebrity</h1>
+
+      <p>To give you a match, we need to know a little about you:</p>
+
+      <form id="Identity">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Find my match</button>
+      </form>
+
+      <div id="Match">
+        <p><span id="male"></span>, Jessica Alba is a perfect match for you</p>
+      </div>
+      <div id="Match1">
+        <p><span id="female"></span>, Brad Pitt is a perfect match for you</p>
+      </div>
+
+    </div>
+  </body>
+</html>
